@@ -1,0 +1,15 @@
+{
+  "items":[{
+    "name":"Bose Headphones",
+    "cost": 15000,
+    "description": "High Definition with built-in Dolby Surround Sound"
+    },{
+      "name":"Logitech Optical Mouse",
+      "cost": 3000,
+      "description": "The New Logitech Optical Mouse with ergonomic design has built-in sensors to allow you to scroll from anywhere. That's right."
+      },{
+        "name":"Samsung Curved UHD 80'' ",
+        "cost":1000000,
+        "description":"The Samsung Curved UHD Smart TV comes with the new price bracket to prove you surely evade taxes to afford such a thing. Have fun running from the government with an 80 inch TV. Bet they won't see that."
+        }]
+}
