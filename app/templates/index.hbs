@@ -1,3 +1,7 @@
-{{outlet}}
 <h1>Available items!</h1>
-{{item-tile}}
+<ul>
+{{#each model as |item|}}
+  {{item-tile item=item}}
+{{/each}}
+
+</ul>

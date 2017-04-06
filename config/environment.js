@@ -17,11 +17,12 @@ module.exports = function(environment) {
       }
     },
       firebase: {
-        apiKey: "AIzaSyD8wmRMIUuRtyHz-jkpfMJAAAMxwNDlg0k",
-    authDomain: "qnaboard-183fe.firebaseapp.com",
-    databaseURL: "https://qnaboard-183fe.firebaseio.com",
-    projectId: "qnaboard-183fe",
-    storageBucket: "qnaboard-183fe.appspot.com",
+        apiKey: "AIzaSyBvTRWCNQRqHODkqDlrNy9FlZizssfgkB8",
+    authDomain: "online-store-58474.firebaseapp.com",
+    databaseURL: "https://online-store-58474.firebaseio.com",
+    projectId: "online-store-58474",
+    storageBucket: "online-store-58474.appspot.com",
+    messagingSenderId: "1542681058"
   },
     APP: {
       // Here you can pass flags/options to your application instance
