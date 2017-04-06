@@ -1,10 +1,10 @@
 <h1>Available items!</h1>
+{{new-item saveItem="saveItem"}}
 <ul>
 {{#each model as |item|}}
   {{item-tile item=item}}
-
-  <button {{action 'update' item}}></button>
-  <button {{action 'delete' item}}></button>
+  {{update-item update="update"}}
+  <button {{action 'destroyItem' item}}></button>
 {{/each}}
 
 </ul>

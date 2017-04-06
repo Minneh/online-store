@@ -14,10 +14,10 @@
             <label for="name">cost:</label>
             {{input value=cost id="cost" class="form-control" placeholder=cost}}
       </div>
-      <button {{action 'saveItem' item}}>Save</button>
+      <button {{action 'saveItem' item}} class="btn btn-success">Save</button>
   </form>
 </div>
 </div>
 {{else}}
-<button {{action 'newItem'}}>New Item</button>
+<button {{action 'newItem'}} class="btn">New Item</button>
 {{/if}}
