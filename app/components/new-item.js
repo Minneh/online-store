@@ -13,6 +13,7 @@ export default Ember.Component.extend({
         name: this.get('name'),
         description: this.get('description'),
         cost: this.get('cost'),
+        image: this.get('image')
       };
       this.set('newItemForm', false);
       this.sendAction('saveItem', params);

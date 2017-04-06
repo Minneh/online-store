@@ -1,6 +1,12 @@
 
   <li>
-    {{#link-to 'item' item.id}}
-    <p>Item Name: {{item.name}}</p>
-    {{/link-to}}
+    <div class="col-md-4">
+      {{#link-to 'item' item.id}}
+      <p>
+        <img src={{item.image}} alt="image" class="index-images"><br>
+        {{item.name}}<br>
+        {{item.cost}}</p>
+      {{/link-to}}
+    </div>
+
   </li>

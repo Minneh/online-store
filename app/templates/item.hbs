@@ -1,3 +1,13 @@
-Title: {{model.name}}
-{{model.description}}
-{{model.cost}}
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <img src={{model.image}} alt="image" class="item-image">
+    </div>
+    <div class="col-md-6">
+      Title: {{model.name}}
+      {{model.description}}
+      {{model.cost}}
+      <button {{action 'addToCart'}} class="btn add-to-cart">Add To Cart</button>
+    </div>
+  </div>
+</div>

@@ -14,9 +14,12 @@
             <label for="name">cost:</label>
             {{input value=cost id="cost" class="form-control" placeholder=cost}}
       </div>
+      <div class="form-group">
+            <label for="image">Image</label>
+            {{input value=image id="image" class="form-control" placeholder=image}}
+      </div>
       <button {{action 'saveItem' item}} class="btn btn-success">Save</button>
   </form>
-</div>
 </div>
 {{else}}
 <button {{action 'newItem'}} class="btn">New Item</button>

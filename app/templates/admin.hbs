@@ -4,7 +4,7 @@
 {{#each model as |item|}}
   {{item-tile item=item}}
   {{update-item update="update"}}
-  <button {{action 'destroyItem' item}}></button>
+  <button {{action 'destroyItem' item}}>Delete</button>
 {{/each}}
 
 </ul>
