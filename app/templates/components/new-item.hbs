@@ -1,0 +1,23 @@
+<!-- new item form shows on clicking the button -->
+{{#if newItemForm}}
+<div class="">
+  <form class="" >
+    <div class="form-group">
+        <label for="name">Name:</label>
+        {{input value=name id="name" class="form-control" placeholder=name}}
+      </div>
+      <div class="form-group">
+          <label for="name">description:</label>
+          {{input value=description id="description" class="form-control" placeholder=description}}
+      </div>
+      <div class="form-group">
+            <label for="name">cost:</label>
+            {{input value=cost id="cost" class="form-control" placeholder=cost}}
+      </div>
+      <button {{action 'saveItem' item}}>Save</button>
+  </form>
+</div>
+</div>
+{{else}}
+<button {{action 'newItem'}}>New Item</button>
+{{/if}}
